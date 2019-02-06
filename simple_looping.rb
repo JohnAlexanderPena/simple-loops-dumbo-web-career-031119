@@ -39,7 +39,7 @@ end
 def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   num = 0..number_of_times.to_i
-  for item in num.to_i do 
+  for item in num do 
     puts phrase
   end
 end
